@@ -5,16 +5,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch index.js"
+    "start": "node --watch index.js",
+    "postinstall": "playwright install --with-deps"
   },
   "keywords": [],
   "author": "Ives van Hoorne",
   "license": "MIT",
   "dependencies": {
-    "@sparticuz/chromium": "^141.0.0",
     "express": "^5.1.0",
-    "playwright": "^1.56.1",
-    "puppeteer": "^24.31.0",
-    "puppeteer-core": "^24.31.0"
+    "playwright": "^1.56.1"
   }
 }
