@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "nodejs-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "dependencies": {
+    "@sparticuz/chromium": "^141.0.0",
+    "express": "^5.1.0",
+    "playwright": "^1.56.1",
+    "puppeteer": "^24.31.0",
+    "puppeteer-core": "^24.31.0"
+  }
+}
