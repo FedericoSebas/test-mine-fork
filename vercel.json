@@ -2,15 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "headers": [
     {
-      "source": "/price",
+      "source": "/index.js",
       "headers": [
         {
-          "key": "Vary",
-          "value": "X-Vercel-IP-Country"
-        },
-        {
           "key": "Cache-Control",
-          "value": "s-maxage=10"
+          "value": "s-maxage=1, stale-while-revalidate=20"
         }
       ]
     }
