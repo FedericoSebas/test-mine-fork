@@ -47,7 +47,7 @@ console.log("Initial stale price:", initial);
 
 // 5. Wait for price to change
 let updated = initial;
-const maxWait = 10000; // 30 seconds
+const maxWait = 7000; // 7 seconds
 const step = 500; // check every 500ms
 let waited = 0;
 
