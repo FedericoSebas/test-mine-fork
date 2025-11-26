@@ -1,4 +1,3 @@
-import express from "express";
 import { chromium } from 'playwright-core'
 import chromiumBinary from '@sparticuz/chromium'
 
